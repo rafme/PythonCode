@@ -49,3 +49,12 @@ def purge_partition(dirpath, retentiondays, fromdt, ptncolnm, hivedb, hivetbl):
     else:
         utilities.print_warn("There is no retention days set for the table :" + hivetbl)
 
+
+          
+          
+#!/usr/bin/env python
+import sys
+import re
+
+for line in sys.stdin:
+     print re.sub(r'\001', '|', re.sub(r'\|', '^', line)) ,
