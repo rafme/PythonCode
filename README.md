@@ -1,3 +1,4 @@
 # PythonCode
 useful procedures in Python
-I'm a motivated developer who is transitioning into the field of Data Science.
+I'm a motivated developer and data scientist
+code for generating ETL scripts in Hadoop
